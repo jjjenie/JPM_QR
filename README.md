@@ -5,7 +5,28 @@ This repository contains a collection of data analysis and machine learning solu
 
 ---
 
-## 📁 Quantitative-Research Project Structure
+
+## 📌 Tasks Overview
+
+### Task 1 & 2: Natural Gas Price Forecasting + Contract Pricing
+- **Goal:** Estimate future gas prices and value storage contracts.
+- **Methods:** Seasonal regression using monthly prices, extrapolation, and cost-based valuation.
+- **Files:** `natural_gas_forecast.py`, `gas_contract_pricing_model.py`
+
+---
+
+### Task 3 & 4: Loan Default Prediction & Expected Loss
+- **Goal:** Predict loan default (PD) and estimate financial loss.
+- **Methods:** Random Forest model using borrower features. Expected loss = PD × EAD × (1 - Recovery Rate).
+- **Files:** `loan_expected_loss_model.py`
+
+---
+
+### Task 5: FICO Score Quantization
+- **Goal:** Convert continuous FICO scores into buckets for categorical models.
+- **Methods:** KMeans clustering to minimize variance within groups.
+- **Files:** `fico_bucket_kmeans.py`
+
 
 
 
